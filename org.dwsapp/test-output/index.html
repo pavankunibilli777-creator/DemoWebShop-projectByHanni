@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-RegreessionSuite" class="navigator-link">
+              <span class="suite-name border-passed">RegreessionSuite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-RegreessionSuite" class="navigator-link ">
+                    <span>C:\E5\org.dwsapp\allproductstestng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-RegreessionSuite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-RegreessionSuite" class="navigator-link ">
+                    <span>3 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-RegreessionSuite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-RegreessionSuite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-RegreessionSuite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-RegreessionSuite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">6 methods,   6 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-RegreessionSuite" class="hide-methods passed suite-RegreessionSuite"> (hide)</a> <!-- hide-methods passed suite-RegreessionSuite -->
+                      <a href="#" panel-name="suite-RegreessionSuite" class="show-methods passed suite-RegreessionSuite"> (show)</a> <!-- show-methods passed suite-RegreessionSuite -->
+                    </span>
+                    <div class="method-list-content passed suite-RegreessionSuite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RegreessionSuite" title="org.dwsapp.allproductstest.ProductTest" class="method navigator-link" hash-for-method="verifyAccessories">verifyAccessories</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RegreessionSuite" title="org.dwsapp.allproductstest.ProductTest" class="method navigator-link" hash-for-method="verifyCameraAndPhoto">verifyCameraAndPhoto</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RegreessionSuite" title="org.dwsapp.allproductstest.ProductTest" class="method navigator-link" hash-for-method="verifyCellPhones">verifyCellPhones</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RegreessionSuite" title="org.dwsapp.allproductstest.ProductTest" class="method navigator-link" hash-for-method="verifyDesktop">verifyDesktop</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RegreessionSuite" title="org.dwsapp.allproductstest.ProductTest" class="method navigator-link" hash-for-method="verifyHealthBook">verifyHealthBook</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RegreessionSuite" title="org.dwsapp.allproductstest.ProductTest" class="method navigator-link" hash-for-method="verifyNoteBook">verifyNoteBook</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-RegreessionSuite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-RegreessionSuite" class="panel RegreessionSuite">
+          <div class="suite-RegreessionSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">org.dwsapp.allproductstest.ProductTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyAccessories">
+                  </a> <!-- verifyAccessories -->
+                  <span class="method-name">verifyAccessories</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyCameraAndPhoto">
+                  </a> <!-- verifyCameraAndPhoto -->
+                  <span class="method-name">verifyCameraAndPhoto</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyCellPhones">
+                  </a> <!-- verifyCellPhones -->
+                  <span class="method-name">verifyCellPhones</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyDesktop">
+                  </a> <!-- verifyDesktop -->
+                  <span class="method-name">verifyDesktop</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyHealthBook">
+                  </a> <!-- verifyHealthBook -->
+                  <span class="method-name">verifyHealthBook</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyNoteBook">
+                  </a> <!-- verifyNoteBook -->
+                  <span class="method-name">verifyNoteBook</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-RegreessionSuite-class-passed -->
+        </div> <!-- panel RegreessionSuite -->
+        <div panel-name="test-xml-RegreessionSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\E5\org.dwsapp\allproductstestng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;RegreessionSuite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+  &lt;parameter name=&quot;url&quot; value=&quot;https://demowebshop.tricentis.com/&quot;/&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;org.dwsapp.listenerlibrary.ListenerImplementation&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;org.dwsapp.allproductstest.ProductTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- RegreessionSuite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-RegreessionSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for RegreessionSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-RegreessionSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for RegreessionSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">FT</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyCameraAndPhoto</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyDesktop</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">IT</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyNoteBook</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">RT</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyAccessories</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyCellPhones</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyHealthBook</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-RegreessionSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for RegreessionSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_RegreessionSuite');
+function tableData_RegreessionSuite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(6);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'verifyAccessories')
+data.setCell(0, 2, 'org.dwsapp.allproductstest.ProductTest')
+data.setCell(0, 3, 23654);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'verifyHealthBook')
+data.setCell(1, 2, 'org.dwsapp.allproductstest.ProductTest')
+data.setCell(1, 3, 16763);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'verifyDesktop')
+data.setCell(2, 2, 'org.dwsapp.allproductstest.ProductTest')
+data.setCell(2, 3, 15976);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'verifyNoteBook')
+data.setCell(3, 2, 'org.dwsapp.allproductstest.ProductTest')
+data.setCell(3, 3, 12813);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'verifyCellPhones')
+data.setCell(4, 2, 'org.dwsapp.allproductstest.ProductTest')
+data.setCell(4, 3, 11621);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'verifyCameraAndPhoto')
+data.setCell(5, 2, 'org.dwsapp.allproductstest.ProductTest')
+data.setCell(5, 3, 10876);
+window.suiteTableData['RegreessionSuite']= { tableData: data, tableDiv: 'times-div-RegreessionSuite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-RegreessionSuite">
+              </div> <!-- times-div-RegreessionSuite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-RegreessionSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for RegreessionSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyDesktop</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Mouse Hovered to the computers Successfully</span>
+                <span class="reporter-method-output">Desktop clicked Successfully</span>
+                <span class="reporter-method-output">computer text clicked Successfully</span>
+                <span class="reporter-method-output">computer added to cart Successfully</span>
+                <span class="reporter-method-output">Clicked on Shoppingcart Successfully</span>
+                <span class="reporter-method-output">Clicked on Countryid dropdown  Successfully</span>
+                <span class="reporter-method-output">Clicked on State dropdown  Successfully</span>
+                <span class="reporter-method-output">Enter the code on Zippostal code  Successfully</span>
+                <span class="reporter-method-output">Estimateshipping button clicked  Successfully</span>
+                <span class="reporter-method-output">Clicked on TermsofserviceCheckbox Successfully</span>
+                <span class="reporter-method-output">Clicked on Checkout button Successfully</span>
+                <span class="reporter-method-output">Clicked on Billingcontinue button Successfully</span>
+                <span class="reporter-method-output">Clicked on Shippingcontinue button Successfully</span>
+                <span class="reporter-method-output">Clicked on Shipping method continue button Successfully</span>
+                <span class="reporter-method-output">Clicked on Payment method continue button Successfully</span>
+                <span class="reporter-method-output">Clicked on Paymentinfocontinue button Successfully</span>
+                <span class="reporter-method-output">Clicked on Confirm button  Successfully</span>
+                <span class="reporter-method-output">Thank you text displayed Successfully</span>
+                <span class="reporter-method-output">ComputerTest-Desktop Verified</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyNoteBook</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Mouse Hovered to the computers Successfully</span>
+                <span class="reporter-method-output">Notebooks clicked Successfully</span>
+                <span class="reporter-method-output">Laptop text clicked Successfully</span>
+                <span class="reporter-method-output">computer added to cart Successfully</span>
+                <span class="reporter-method-output">Clicked on Shoppingcart Successfully</span>
+                <span class="reporter-method-output">Clicked on Countryid dropdown  Successfully</span>
+                <span class="reporter-method-output">Clicked on State dropdown  Successfully</span>
+                <span class="reporter-method-output">Enter the code on Zippostal code  Successfully</span>
+                <span class="reporter-method-output">Estimateshipping button clicked  Successfully</span>
+                <span class="reporter-method-output">Clicked on TermsofserviceCheckbox Successfully</span>
+                <span class="reporter-method-output">Clicked on Checkout button Successfully</span>
+                <span class="reporter-method-output">Clicked on Billingcontinue button Successfully</span>
+                <span class="reporter-method-output">Clicked on Shippingcontinue button Successfully</span>
+                <span class="reporter-method-output">Clicked on Shipping method continue button Successfully</span>
+                <span class="reporter-method-output">Clicked on Payment method continue button Successfully</span>
+                <span class="reporter-method-output">Clicked on Paymentinfocontinue button Successfully</span>
+                <span class="reporter-method-output">Clicked on Confirm button  Successfully</span>
+                <span class="reporter-method-output">Thank you text displayed Successfully</span>
+                <span class="reporter-method-output">ComputerTest-NoteBook Verified</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyCellPhones</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Mouse Hovered to the Electronics Successfully</span>
+                <span class="reporter-method-output">Cellphone clicked Successfully</span>
+                <span class="reporter-method-output">Phone text clicked Successfully</span>
+                <span class="reporter-method-output">Phone added to cart Successfully</span>
+                <span class="reporter-method-output">Clicked on Shoppingcart Successfully</span>
+                <span class="reporter-method-output">Clicked on Countryid dropdown  Successfully</span>
+                <span class="reporter-method-output">Clicked on State dropdown  Successfully</span>
+                <span class="reporter-method-output">Enter the code on Zippostal code  Successfully</span>
+                <span class="reporter-method-output">Estimateshipping button clicked  Successfully</span>
+                <span class="reporter-method-output">Clicked on TermsofserviceCheckbox Successfully</span>
+                <span class="reporter-method-output">Clicked on Checkout button Successfully</span>
+                <span class="reporter-method-output">Clicked on Billingcontinue button Successfully</span>
+                <span class="reporter-method-output">Clicked on Shippingcontinue button Successfully</span>
+                <span class="reporter-method-output">Clicked on Shipping method continue button Successfully</span>
+                <span class="reporter-method-output">Clicked on Payment method continue button Successfully</span>
+                <span class="reporter-method-output">Clicked on Paymentinfocontinue button Successfully</span>
+                <span class="reporter-method-output">Clicked on Confirm button  Successfully</span>
+                <span class="reporter-method-output">Thank you text displayed Successfully</span>
+                <span class="reporter-method-output">ElectronicsTest-CellPhones Verified</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyAccessories</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Mouse Hovered to the computers Successfully</span>
+                <span class="reporter-method-output">Accessories clicked Successfully</span>
+                <span class="reporter-method-output">Accessories text clicked Successfully</span>
+                <span class="reporter-method-output">computer added to cart Successfully</span>
+                <span class="reporter-method-output">Clicked on Shoppingcart Successfully</span>
+                <span class="reporter-method-output">Clicked on Countryid dropdown  Successfully</span>
+                <span class="reporter-method-output">Clicked on State dropdown  Successfully</span>
+                <span class="reporter-method-output">Enter the code on Zippostal code  Successfully</span>
+                <span class="reporter-method-output">Estimateshipping button clicked  Successfully</span>
+                <span class="reporter-method-output">Clicked on TermsofserviceCheckbox Successfully</span>
+                <span class="reporter-method-output">Clicked on Checkout button Successfully</span>
+                <span class="reporter-method-output">Clicked on Billingcontinue button Successfully</span>
+                <span class="reporter-method-output">Clicked on Shippingcontinue button Successfully</span>
+                <span class="reporter-method-output">Clicked on Shipping method continue button Successfully</span>
+                <span class="reporter-method-output">Clicked on Payment method continue button Successfully</span>
+                <span class="reporter-method-output">Clicked on Paymentinfocontinue button Successfully</span>
+                <span class="reporter-method-output">Clicked on Confirm button  Successfully</span>
+                <span class="reporter-method-output">Thank you text displayed Successfully</span>
+                <span class="reporter-method-output">ComputerTest-Accessories Verified</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyHealthBook</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Search box working Successfully</span>
+                <span class="reporter-method-output">Entering data Successfully</span>
+                <span class="reporter-method-output">Search button clicked Successfully</span>
+                <span class="reporter-method-output">Clicked on the book Successfully</span>
+                <span class="reporter-method-output">book Added to cart Successfully</span>
+                <span class="reporter-method-output">Clicked on Shoppingcart Successfully</span>
+                <span class="reporter-method-output">Clicked on Countryid dropdown  Successfully</span>
+                <span class="reporter-method-output">Clicked on State dropdown  Successfully</span>
+                <span class="reporter-method-output">Enter the code on Zippostal code  Successfully</span>
+                <span class="reporter-method-output">Estimateshipping button clicked  Successfully</span>
+                <span class="reporter-method-output">Clicked on TermsofserviceCheckbox Successfully</span>
+                <span class="reporter-method-output">Clicked on Checkout button Successfully</span>
+                <span class="reporter-method-output">Clicked on Billingcontinue button Successfully</span>
+                <span class="reporter-method-output">Clicked on Shippingcontinue button Successfully</span>
+                <span class="reporter-method-output">Clicked on Shipping method continue button Successfully</span>
+                <span class="reporter-method-output">Clicked on Payment method continue button Successfully</span>
+                <span class="reporter-method-output">Clicked on Paymentinfocontinue button Successfully</span>
+                <span class="reporter-method-output">Clicked on Confirm button  Successfully</span>
+                <span class="reporter-method-output">Thank you text displayed Successfully</span>
+                <span class="reporter-method-output">BookTest-HealthBook Verified</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyCameraAndPhoto</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Mouse Hovered to the Electronics Successfully</span>
+                <span class="reporter-method-output">Camera clicked Successfully</span>
+                <span class="reporter-method-output">camera text clicked Successfully</span>
+                <span class="reporter-method-output">Camera added to cart Successfully</span>
+                <span class="reporter-method-output">Clicked on Shoppingcart Successfully</span>
+                <span class="reporter-method-output">Clicked on Countryid dropdown  Successfully</span>
+                <span class="reporter-method-output">Clicked on State dropdown  Successfully</span>
+                <span class="reporter-method-output">Enter the code on Zippostal code  Successfully</span>
+                <span class="reporter-method-output">Estimateshipping button clicked  Successfully</span>
+                <span class="reporter-method-output">Clicked on TermsofserviceCheckbox Successfully</span>
+                <span class="reporter-method-output">Clicked on Checkout button Successfully</span>
+                <span class="reporter-method-output">Clicked on Billingcontinue button Successfully</span>
+                <span class="reporter-method-output">Clicked on Shippingcontinue button Successfully</span>
+                <span class="reporter-method-output">Clicked on Shipping method continue button Successfully</span>
+                <span class="reporter-method-output">Clicked on Payment method continue button Successfully</span>
+                <span class="reporter-method-output">Clicked on Paymentinfocontinue button Successfully</span>
+                <span class="reporter-method-output">Clicked on Confirm button  Successfully</span>
+                <span class="reporter-method-output">Thank you text displayed Successfully</span>
+                <span class="reporter-method-output">ElectronicsTest-Camera and phone Verified</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-RegreessionSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-RegreessionSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.dwsapp.allproductstest.ProductTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">reportSetup</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-class before">
+                <span class="method-name">browserSetup(chrome, https://demowebshop.tricentis.com/)</span>
+                <span class="method-start">400 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">login</span>
+                <span class="method-start">26217 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyHealthBook</span>
+                <span class="method-start">28196 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">logout</span>
+                <span class="method-start">44963 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">login</span>
+                <span class="method-start">46304 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyDesktop</span>
+                <span class="method-start">49320 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">logout</span>
+                <span class="method-start">65298 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">login</span>
+                <span class="method-start">66335 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyNoteBook</span>
+                <span class="method-start">68235 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">logout</span>
+                <span class="method-start">81049 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">login</span>
+                <span class="method-start">83416 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyAccessories</span>
+                <span class="method-start">84492 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">logout</span>
+                <span class="method-start">108146 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">login</span>
+                <span class="method-start">109179 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyCameraAndPhoto</span>
+                <span class="method-start">111504 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">logout</span>
+                <span class="method-start">122395 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">login</span>
+                <span class="method-start">124009 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyCellPhones</span>
+                <span class="method-start">126009 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">logout</span>
+                <span class="method-start">137638 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">browserTeminate</span>
+                <span class="method-start">139143 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-test after">
+                <span class="method-name">reportTerminate</span>
+                <span class="method-start">139329 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
