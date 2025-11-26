@@ -14,7 +14,7 @@ import com.aventstack.extentreports.Status;
 
 @Listeners(org.dwsapp.listenerlibrary.ListenerImplementation.class)
 
-public class ComputerTest extends BaseConfig {
+public class Computer extends BaseConfig {
 
 	@Test(enabled = true, priority = 3, groups = "FT")
 	public void verifyDesktop() {

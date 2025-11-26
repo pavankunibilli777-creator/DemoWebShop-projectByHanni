@@ -13,7 +13,7 @@ import com.aventstack.extentreports.Status;
 
 @Listeners(org.dwsapp.listenerlibrary.ListenerImplementation.class)
 
-public class ElectronicsTest extends BaseConfig {
+public class Electronics extends BaseConfig {
 
 	@Test(enabled = true, priority = 2, groups = "FT")
 	public void verifyCameraAndPhoto() {

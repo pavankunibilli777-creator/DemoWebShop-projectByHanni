@@ -12,7 +12,7 @@ import com.aventstack.extentreports.Status;
 
 @Listeners(org.dwsapp.listenerlibrary.ListenerImplementation.class)
 
-public class BookTest extends BaseConfig {
+public class Book extends BaseConfig {
 
 	@Test(enabled = true, priority = 1, groups = "RT")
 	public void verifyHealthBook() {
